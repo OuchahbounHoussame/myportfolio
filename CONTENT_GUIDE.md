@@ -1,24 +1,21 @@
-# H84 Lab Portfolio
+# H84 Lab content guide
 
-## Main files
+## Main structure
 
-- `src/App.jsx`: portfolio content and sections.
-- `src/styles/home.css`: visual design and responsive styles.
-- `public/images/`: profile image and site icon.
-- `public/documents/`: downloadable project documents.
+- `src/App.jsx`: page data and section composition.
+- `src/components/`: reusable navigation, hero, project, course, heading, and footer components.
+- `src/styles/home.css`: brand design, themes, and responsive breakpoints.
+- `public/`: images and downloadable documents.
 
-## Update a project
+## Update projects or courses
 
-Edit the `projects` array in `src/App.jsx`. Each project contains its category,
-technology stack, title, description, link and call-to-action.
-
-## Update skills
-
-Edit the `skillGroups` array in `src/App.jsx`.
+Edit the `projects` and `courses` arrays in `src/App.jsx`. Replace placeholder
+project links with the exact repository and live-demo URLs when they are available.
 
 ## Commands
 
 ```bash
 npm run dev
 npm run build
+npm run preview
 ```
