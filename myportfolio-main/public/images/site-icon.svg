@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="42" fill="#050505"/>
+  <path d="M40 60C40 48.9543 48.9543 40 60 40H140C151.046 40 160 48.9543 160 60V140C160 151.046 151.046 160 140 160H60C48.9543 160 40 151.046 40 140V60Z" fill="#111111" stroke="#333333" stroke-width="3"/>
+  <rect x="64" y="68" width="16" height="62" rx="4" fill="url(#h84Gradient)"/>
+  <rect x="120" y="68" width="16" height="62" rx="4" fill="url(#h84Gradient)"/>
+  <rect x="80" y="92" width="40" height="16" rx="4" fill="url(#h84Gradient)"/>
+  <rect x="118" y="136" width="22" height="5" rx="2.5" fill="#38BDF8"/>
+  <text x="142" y="158" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="800">84</text>
+  <defs>
+    <linearGradient id="h84Gradient" x1="64" y1="68" x2="138" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+</svg>
