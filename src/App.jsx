@@ -20,7 +20,7 @@ export default function App() {
       <div className="grid-spotlight" aria-hidden="true" />
       <main className="academy-wrap" id="top">
         <section className="hero" aria-labelledby="hero-title">
-          <div className="hero-logo" aria-label="H84 Lab"><span>H84</span><small>LAB</small></div>
+          <img className="hero-logo" src="/images/h84-logo.svg" alt="H84 Lab" />
           <div className="hero-stack" aria-hidden="true">
             <div className="hero-card is-back"><div className="hero-project-card"><span>H84 LAB</span><strong>BUILD<br />YOUR<br />FUTURE.</strong><i>HTML · CSS · JS · REACT</i></div></div>
             <div className="hero-card is-front profile-card"><img src="/images/profile-cv.jpeg" alt="Houssame Ouchahboun" /><div className="profile-caption"><span>WEB DEVELOPER · STUDENT</span><strong>Houssame<br />Ouchahboun</strong></div></div>
